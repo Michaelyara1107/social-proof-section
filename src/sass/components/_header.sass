@@ -1,6 +1,5 @@
 .header
   text-align: center
-  background: url('../images/bg-pattern-top-mobile.svg') no-repeat
   background-size: 103%
   &-titulo
     font-size: 2em
@@ -12,3 +11,15 @@
     font-weight: 500
     line-height: 1.8
     color: $darkGrayishMagenta
+  @media screen and (min-width: $anchoDesktop )
+    width: 45%
+    background: none
+    text-align: left
+    &-titulo
+      padding-left: 0
+      padding-right: 2.5em
+      font-size: 2.8em
+      margin-bottom: 0
+    &-p
+      padding-right: 3em
+      font-size: .9em

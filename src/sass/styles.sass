@@ -7,7 +7,26 @@ body
   font-size: 15px
   font-family: 'Spartan', sans-serif
   margin: 0
+  background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg')
+  background-repeat: no-repeat
+  background-position: top left, bottom right
+  background-size: 375px, 380px
 
 .wrapper
-  max-width: 1440px
+  max-width: $anchoDesktop
   padding: 1.1em
+  margin: auto
+
+
+@media screen and (min-width: $anchoDesktop)
+  .u-desktop
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    margin-bottom: 3em
+  body
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg')
+    background-repeat: no-repeat
+    background-position: top left, bottom right
+    background-size: 550px, 1040px
+    height: 100vh

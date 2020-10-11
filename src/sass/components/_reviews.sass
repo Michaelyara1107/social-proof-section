@@ -23,3 +23,16 @@
     font-size: .9em
     line-height: 1.7
     margin-top: 2em
+
+  @media screen and (min-width: $anchoDesktop)
+    display: flex
+    &-content
+      margin-right: 2em
+      &:last-of-type
+        margin-right: 0
+
+    &-header
+      &-name, &-verify
+        font-size: .8em
+    &-p
+      font-size: .8em

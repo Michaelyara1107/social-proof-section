@@ -1,4 +1,6 @@
 .calificaciones
+  margin-top: 2.5em
+  margin-bottom: 4em
   & .wrapper
     padding-top: .8em
   &-content
@@ -19,3 +21,21 @@
       display: block
       margin-top: .8em
       font-weight: 700
+  @media screen and (min-width: $anchoDesktop )
+    width: 55%
+    margin-top: 29.8px
+    padding-top: 48.8px
+    &-content
+      display: flex
+      align-items: center
+      width: 75%
+      font-size: .9em
+      &:nth-of-type(2)
+        margin-left: 2.5em
+      &:last-of-type
+        margin-left: 5em
+      img
+        &:last-of-type
+          margin-right: 2em
+      span
+        margin-top: 0.3em
