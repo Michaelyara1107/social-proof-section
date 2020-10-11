@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75af8461-c892-46c6-85e4-c69044730272" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\laragon\www\calificaciones\dist" />
       <recent name="E:\laragon\www\calificaciones\static" />
     </key>
   </component>
@@ -54,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602429545004</updated>
       <workItem from="1602429546211" duration="1838000" />
-      <workItem from="1602431570761" duration="5479000" />
+      <workItem from="1602431570761" duration="6561000" />
     </task>
     <servers />
   </component>
